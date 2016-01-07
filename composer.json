@@ -1,0 +1,30 @@
+{
+    "name": "loveorigami/lo-module-geo",
+    "description": "Geo module for Lo-CMS",
+    "version": "1.0",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "geo",
+        "module"
+    ],
+    "homepage": "https://bitbucket.org/loveorigami/lo-module-geo",
+    "time": "2016-01-07",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Lukyanov",
+            "email": "loveorigami@mail.ru",
+            "homepage": "http://loveorigami.info",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2"
+    },
+    "autoload": {
+        "psr-4": {
+            "lo\\modules\\geo\\": ""
+        }
+    }
+}
