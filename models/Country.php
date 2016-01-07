@@ -21,6 +21,8 @@ class Country extends \lo\core\db\ActiveRecord
     const STATUS_DRAFT = 0;
     const STATUS_PUBLISHED = 1;
 
+    const DEF_COUNTRY = 8;
+
     public $tplDir = '@lo/modules/geo/modules/admin/views/country/tpl/';
 
     /**
