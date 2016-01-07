@@ -23,6 +23,8 @@ class CountryMeta extends MetaFields
             "img" => [
                 "definition" => [
                     "class" => \lo\core\db\fields\ElfImgField::className(),
+                    "gridWidth" => 25,
+                    "viewWidth" => 50,
                     "inputClassOptions" => [
                         "widgetOptions"=>[
                             'path'=>'geo/country'
@@ -43,15 +45,15 @@ class CountryMeta extends MetaFields
                 ],
                 "params" => [$this->owner, "name"]
             ],
-            "name_ru" => [
+            "name_en" => [
                 "definition" => [
                     "class" => \lo\core\db\fields\TextField::className(),
-                    "title" => Yii::t('backend', 'NameRu'),
-                    "showInGrid" => false,
+                    "title" => Yii::t('backend', 'NameEn'),
+                    "showInGrid" => true,
                     "showInFilter" => true,
                     "isRequired" => false,
                 ],
-                "params" => [$this->owner, "name_ru"]
+                "params" => [$this->owner, "name_en"]
             ],
 
         ];

@@ -18,11 +18,11 @@
 ### 2. Update database schema
 
 ```bash
-$ php yii migrate/up --migrationPath=@vendor/loveorigami/lo-module-origami/migrations
+$ php yii migrate/up --migrationPath=@vendor/loveorigami/lo-module-geo/migrations
 ```
 
 ### 3. Create database schema
 ```bash
-$ php yii migrate/create --migrationPath=@vendor/loveorigami/lo-module-origami/migrations "origami_author"
+$ php yii migrate/create --migrationPath=@vendor/loveorigami/lo-module-geo/migrations "geo_country"
 
 ```
