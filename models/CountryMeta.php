@@ -22,7 +22,7 @@ class CountryMeta extends MetaFields
 
             "img" => [
                 "definition" => [
-                    "class" => \lo\core\db\fields\ElfImgField::className(),
+                    "class" => \lo\core\db\fields\ElfImgField::class,
                     "gridWidth" => 25,
                     "viewWidth" => 50,
                     "inputClassOptions" => [
@@ -36,7 +36,7 @@ class CountryMeta extends MetaFields
             ],
             "name" => [
                 "definition" => [
-                    "class" => \lo\core\db\fields\TextField::className(),
+                    "class" => \lo\core\db\fields\TextField::class,
                     "title" => Yii::t('backend', 'Name'),
                     "showInGrid" => true,
                     "showInFilter" => true,
@@ -47,7 +47,7 @@ class CountryMeta extends MetaFields
             ],
             "name_en" => [
                 "definition" => [
-                    "class" => \lo\core\db\fields\TextField::className(),
+                    "class" => \lo\core\db\fields\TextField::class,
                     "title" => Yii::t('backend', 'NameEn'),
                     "showInGrid" => true,
                     "showInFilter" => true,

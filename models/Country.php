@@ -38,7 +38,7 @@ class Country extends \lo\core\db\ActiveRecord
      */
     public function metaClass()
     {
-        return CountryMeta::className();
+        return CountryMeta::class;
     }
 
 }
